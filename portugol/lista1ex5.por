@@ -3,17 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		
-		real meseS, anoS, mesN, anoN
-		real idadE, tdiA, diaN
-		escreva("qual sua idade em dias?")
-		leia(tdiA)
-		anoS = tdiA/365
-		escreva("Voce tem " + anoS+ " anos e ",0)
-		meseS=(tdiA/365)/30
-		escreva (meseS + " meses ",0)
-	
-		
+		inteiro n1,n2,n3, media
+		escreva("Informe nota 01 : ")
+		leia(n1)
+		escreva("Informe nota 02 : ")
+		leia(n2)
+		escreva("Informe nota 03 : ")
+		leia(n3)
+
+		media= (n1+n2+n3)/3
+		escreva("Sua média é : " + media)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 256; 
+ * @POSICAO-CURSOR = 245; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
