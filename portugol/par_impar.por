@@ -1,24 +1,21 @@
 programa
 {
-	inclua biblioteca Tipos
-	inclua biblioteca Matematica
 	
 	funcao inicio()
 	{
-		
-		inteiro meseS, anoS, mesN, anoN, tdiA
-		real idadE, diaN
-		escreva("qual sua idade em dias?")
-		leia(tdiA)
-		anoS = tdiA/365
-		escreva("Voce tem " + anoS+ " anos e ")
-		meseS=(tdiA%365)/30
-		escreva (meseS + " meses ")
-		diaN= (meseS%30)
-		escreva(diaN)
-	
-	
-		
+		inteiro numI 
+
+		escreva(" Informe um número inteiro e positivo:  ")
+		leia(numI)
+
+		se(numI % 2 == 0) { 
+			escreva (numI+ " esse número é par \n ")
+		} senao 
+		{ 
+			escreva(numI+ " esse número é impar \n ")
+		}
+
+		escreva("FIM DE PROGRAMA")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 330; 
+ * @POSICAO-CURSOR = 284; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

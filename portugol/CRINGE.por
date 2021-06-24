@@ -1,24 +1,22 @@
 programa
 {
-	inclua biblioteca Tipos
-	inclua biblioteca Matematica
 	
 	funcao inicio()
 	{
-		
-		inteiro meseS, anoS, mesN, anoN, tdiA
-		real idadE, diaN
-		escreva("qual sua idade em dias?")
-		leia(tdiA)
-		anoS = tdiA/365
-		escreva("Voce tem " + anoS+ " anos e ")
-		meseS=(tdiA%365)/30
-		escreva (meseS + " meses ")
-		diaN= (meseS%30)
-		escreva(diaN)
-	
-	
-		
+		inteiro idade, ano
+		cadeia nome
+
+		escreva ("Qual seu nome?" )
+		leia(nome)
+		escreva ("Qual seu ano de nascimento?" )
+		leia(ano)
+
+		idade = 2021 - ano
+		se (idade>35){
+			escreva(nome + " sua idade é :  " +idade+ "  CRINGE \n\n")
+		}
+
+		escreva ("FIM DO PROGRAMA")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 330; 
+ * @POSICAO-CURSOR = 276; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
