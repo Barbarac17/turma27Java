@@ -1,28 +1,27 @@
+/*8) Construa um sistema para ler uma variável numérica N e imprimi-la somente se a mesma for maior que 100, 
+caso contrário imprimi-la com o valor zero.*/
+
 programa
 {
-	inclua biblioteca Tipos
-	inclua biblioteca Matematica
 	
 	funcao inicio()
 	{
+		inteiro N
 		
-		inteiro meseS, anoS, mesN, anoN, tdiA
-		real idadE, diaN
-		escreva("qual sua idade em dias?")
-		leia(tdiA)
-		
-		anoS = tdiA/365
-		
-		meseS=(tdiA%365)/30
-		
-		diaN= (tdiA%365)%30
-		
+		escreva("Informe um número : ")
+		leia(N)
+		limpa()
 
-		escreva("Voce tem " + anoS+ " anos e ")
-		escreva (meseS + " meses ")
-		escreva(diaN)
-	
-	
+		se (N >= 100 ){
+
+			escreva ("\n Imprimir : ", N)
+		}
+
+		senao se (N <=99){
+			escreva ("\n Imprimir : 0 ")
+		}
+
+		escreva ("\n\n FIM DE PROGRAMA")
 		
 	}
 }
@@ -31,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 245; 
+ * @POSICAO-CURSOR = 310; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -7,8 +7,7 @@ programa
 	funcao inicio()
 	{
 	inteiro num
-	const inteiro ZERO = 0
-	
+		
 		escreva("Informe um número : ")
 		leia(num)
 
@@ -33,19 +32,17 @@ programa
 			escreva (" ele é Neutro")
 		} senao 
 		escreva(" O número ",num, " é Negativo")
-		
-
-		
-		
-		
+				
 	}
+
+	escreva ("***** FIM DO PROGRAMA *****")
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 221; 
+ * @POSICAO-CURSOR = 642; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

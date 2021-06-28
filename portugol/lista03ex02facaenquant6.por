@@ -1,29 +1,12 @@
+/*2- Faça um programa que pegue um número do teclado e calcule a soma de todos os números  de 1 até ele. 
+Ex.: o usuário entra 7, o programa vai mostrar 28, pois  1+2+3+4+5+6+7=28.*/
+
 programa
 {
-	inclua biblioteca Tipos
-	inclua biblioteca Matematica
 	
 	funcao inicio()
 	{
-		
-		inteiro meseS, anoS, mesN, anoN, tdiA
-		real idadE, diaN
-		escreva("qual sua idade em dias?")
-		leia(tdiA)
-		
-		anoS = tdiA/365
-		
-		meseS=(tdiA%365)/30
-		
-		diaN= (tdiA%365)%30
-		
-
-		escreva("Voce tem " + anoS+ " anos e ")
-		escreva (meseS + " meses ")
-		escreva(diaN)
-	
-	
-		
+		escreva("Olá Mundo")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -31,7 +14,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 245; 
+ * @POSICAO-CURSOR = 2; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

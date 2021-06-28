@@ -5,6 +5,7 @@ A hora excedente de trabalho vale R$ 20,00. No final do processamento imprimir o
 
 programa
 {
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
@@ -19,7 +20,8 @@ programa
 
 		se(nhoras< 50){
 		tsal = nhoras * sal
-		escreva( "Você trabalhou " , nhoras, " seu sálario a receber é : ",tsal, " reais.")
+		exc=0.00
+		escreva( "Você trabalhou " , nhoras, " seu sálario a receber é : ",tsal, " reais \n você possui " ,exc, " a receber de hora extra")
 		} 
 		senao { 
 		exc = nhoras - 50
@@ -35,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1000; 
+ * @POSICAO-CURSOR = 892; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

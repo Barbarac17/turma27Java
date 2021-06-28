@@ -1,29 +1,17 @@
+/*FAÇA...ENQUANTO
+1- Faça um programa que mostre uma contagem na tela de 233 a 456, 
+só que contando de 3 em 3 quando estiver entre 300 e 400 e de 5 em 5 quando não estiver.*/
+
+
 programa
 {
-	inclua biblioteca Tipos
-	inclua biblioteca Matematica
 	
 	funcao inicio()
 	{
 		
-		inteiro meseS, anoS, mesN, anoN, tdiA
-		real idadE, diaN
-		escreva("qual sua idade em dias?")
-		leia(tdiA)
+		inteiro 
 		
-		anoS = tdiA/365
-		
-		meseS=(tdiA%365)/30
-		
-		diaN= (tdiA%365)%30
-		
-
-		escreva("Voce tem " + anoS+ " anos e ")
-		escreva (meseS + " meses ")
-		escreva(diaN)
-	
-	
-		
+		escreva("")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -31,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 245; 
+ * @POSICAO-CURSOR = 229; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
