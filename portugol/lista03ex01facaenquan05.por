@@ -9,9 +9,25 @@ programa
 	funcao inicio()
 	{
 		
-		inteiro 
+		inteiro numbers, mult3 = 3, contador = 0, dado=0
+
+		faca {
+			
+
+			se  (contador % 3 ==0 ){
+
+			escreva("Informe numero inicio : ")
+			leia(dado)
+
+			contador += dado
+								
+			}
+		}
+		enquanto (contador <=300)
+
+		escreva ("\n\n ",contador)	
+		escreva ("\n FIM PROGRAMA")
 		
-		escreva("")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 229; 
+ * @POSICAO-CURSOR = 489; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

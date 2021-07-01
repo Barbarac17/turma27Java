@@ -8,7 +8,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro jogarDado[10] 
+		inteiro jogarDado[10] contaFaceRep[10] 
 		inteiro maiorDado = 0, quantDado = 0, contaDado=0, mediaDado=0, somaDado =0
 		inteiro sorte =0
 		
@@ -21,24 +21,21 @@ programa
 			se(jogarDado[i] > maiorDado){
 			maiorDado = jogarDado[i]} 
 			
-			se (maiorDado == jogarDado[i]){
-			quantDado++ }
+			se ( maiorDado == jogarDado[i] ){
+			quantDado ++  }
 			
-		
 		contaDado++
 		somaDado = somaDado + jogarDado[i]
 		mediaDado = somaDado / contaDado
-		 
+				 
 		}
-
-	
+			
 		escreva("\n Media : ",mediaDado)
 		escreva("\n Maior dado : ",maiorDado)
 		escreva("\n Quantas vezes o maior dado repitiu : ",quantDado)
 		
-		
 		//escreva("\n Soma : ",somaDado)
-		//escreva("\n ",contaDado)
+		escreva("\n ",contaDado)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -46,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 691; 
+ * @POSICAO-CURSOR = 390; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
