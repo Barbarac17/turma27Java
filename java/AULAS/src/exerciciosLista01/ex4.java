@@ -16,8 +16,8 @@ public class ex4 {
 		B=read.nextDouble();
 		System.out.println("variavel C:");
 		C = read.nextDouble();
-		R = (A + B);
-		S = (B + C);
+		R = Math.pow((A + B),2);
+		S = Math.pow((B + C),2);
 		D = ((R + S) / 2);
 		System.out.println(D);
 
