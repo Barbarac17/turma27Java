@@ -1,8 +1,8 @@
-package exerciciosLista01;
+package lista02_SE;
 
 import java.util.Scanner;
 
-public class selista2ex02 {public static void main(String[] args) {
+public class selista02ex2 {public static void main(String[] args) {
 	Scanner read = new Scanner(System.in);
 	
 	double nhoras,  exc, tsal, nexc;
@@ -17,14 +17,14 @@ public class selista2ex02 {public static void main(String[] args) {
 	if(nhoras< 50){
 	tsal = (nhoras * sal);
 	exc=0.00;
-	System.out.printf( "Você trabalhou %f%f%f " , nhoras,tsal,exc);
+	System.out.println( "Você trabalhou " +nhoras+ " seu salario será de "+tsal+ "excedeu em horas "+ exc);
 	} 
 	
 	else { 
 	exc = (nhoras - 50);
 	tsal = (exc * salex) + (50 * sal);
 
-	System.out.printf("Você trabalhou %f %f %f" , nhoras, exc,tsal);
+	System.out.println("Você trabalhou " +nhoras+ " seu salario será de "+tsal+ "excedeu em horas "+ exc);
 
 	}
 }

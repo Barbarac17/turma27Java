@@ -1,4 +1,4 @@
-package exerciciosLista01;
+package lista02_SE;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package exerciciosLista01;
+package lista02_SE;
 
 import java.util.Scanner;
 
@@ -16,9 +16,9 @@ public class selista2ex01 {
 		exc = (ptomates - 50.00);
 		multa = (exc * 4.00);
 		
-		if (exc > 1)
+		if (exc >= 1)
 		{
-			System.out.printf("Pagara multa no valor %2.f",multa, " em 5 dias \n");
+			System.out.println("Pagara multa no valor "+multa+ " em 5 dias \n");
 		}
 		else {
 			System.out.println(" Está dentro do limite, não pagará multa! \n\n\n");
