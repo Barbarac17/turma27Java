@@ -1,0 +1,24 @@
+package objetosAulapoo;
+
+/*1) Crie uma classe cliente e apresente os atributos e 
+ * métodos referentes esta classe, 
+ * em seguida crie um objeto cliente, 
+ * defina as instancias deste objeto e apresente as informações deste objeto no console.
+ */
+
+public class Cliente_exercicioobj {
+
+	public String nome;
+	public String preferencia;
+	public double saldoCompras;
+	public double valorGasto;
+
+	
+	
+	public double comprar () {
+		return saldoCompras - valorGasto;
+	}
+}
+
+
+
