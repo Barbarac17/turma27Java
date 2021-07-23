@@ -15,9 +15,7 @@ public class Cliente_exercicioobj {
 
 	
 	
-	public double comprar () {
-		return saldoCompras - valorGasto;
-	}
+	
 }
 
 
