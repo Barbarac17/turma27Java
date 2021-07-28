@@ -5,7 +5,9 @@ nome varchar(25) not null,
 cor varchar(15) not null,
 elemento varchar (15) not null,
 nivel varchar(15) not null,
+cl_id_classe bigint not null,
 primary key (id_code)
+foreign key (cl_id_classe) references tb_personagem (id_classe)
 );
 
 create table tb_classe (
@@ -14,9 +16,7 @@ categoria bigint(10)not null,
 defesa bigint (10) not null,
 ataque bigint (10)not null,
 armamento varchar(15) not null,
-personagem_id_code bigint not null,
-primary key (id_classe),
-foreign key (personagem_id_code) references tb_personagem (id_code)
+primary key (id_classe)
 );
 
 insert into tb_personagem (nome, cor, elemento, nivel) VALUES ("Caulus", "verde", "terra", 10);
@@ -46,4 +46,4 @@ desc tb_personagem;
 select * from tb_classe
 inner join tb_personagem on tb_personagem.id_code = tb_classe.personagem_id_code;
 
-delete from tb_classe where id_classe in (1, 2, 3)
+-- delete from tb_classe where id_classe in (1, 2, 3)
