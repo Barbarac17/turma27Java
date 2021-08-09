@@ -13,7 +13,7 @@ import com.blog.blogPessoal.repository.UsuarioRepository;
 
 
 
-@Service
+@Service	
 public class UserDetailsServiceImpl implements UserDetailsService {
 
 	@Autowired
